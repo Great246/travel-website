@@ -1,0 +1,40 @@
+const u = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=1200&q=80`;
+
+export const packages = [
+  {
+    id: "greek-islands",
+    title: "Greek Islands Escape",
+    category: "Island Hopping",
+    location: "Santorini · Mykonos",
+    duration: "7 Days / 6 Nights",
+    rating: 4.9,
+    includes: "Hotels + Flights",
+    price: 1499,
+    image: u("photo-1533105079780-92b9be482077"),
+    alt: "Whitewashed Greek island village above the Aegean sea",
+  },
+  {
+    id: "maldives-paradise",
+    title: "Maldives Paradise",
+    category: "Beach & Resort",
+    location: "Baa Atoll",
+    duration: "5 Days / 4 Nights",
+    rating: 4.8,
+    includes: "Resort + Breakfast",
+    price: 1899,
+    image: u("photo-1573843981267-be1999ff37cd"),
+    alt: "Aerial view of a tropical island ringed by turquoise water",
+  },
+  {
+    id: "japanese-discovery",
+    title: "Japanese Discovery",
+    category: "Culture & Cities",
+    location: "Tokyo · Kyoto",
+    duration: "10 Days / 9 Nights",
+    rating: 4.9,
+    includes: "Tokyo + Kyoto",
+    price: 2299,
+    image: u("photo-1528360983277-13d401cdc186"),
+    alt: "Traditional pagoda and cherry blossoms in Kyoto",
+  },
+];
